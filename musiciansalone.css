@@ -1,0 +1,128 @@
+body{
+	 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+.searchform{
+  opacity: 0.5;
+}
+
+.gig{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+  font-size: 400%;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.input-group{
+  width: 200px;
+}
+
+.leftclmn{
+  margin-left: 5%;
+}
+
+.fruitinfo{
+  width: 400px;
+  color: white;
+  font-style: italic;
+ background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0%;
+  padding: 15px 15px 15px 15px;
+
+}
+
+.nfpic{
+  height: 500px;
+  width: auto;
+}
+
+.combinations{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: 100%;
+  margin-left: 5%;
+}
+
+.columnshop{
+  float: left;
+  width: 14%;
+}
+
+.rowshop{
+  margin-left: 4%;
+}
+
+
+.rowshop:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0);
+  font-style: italic;
+  text-align: center;
+  border: none;
+     
+}
+
+.card-title{
+  font-style: italic;
+  font-style: bold;
+  color: white;
+}
+
+.card-img-top{
+  height: 100px;
+  width: 100px;
+
+}
+.fs{
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+ 
+}
+
+
+.nav{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+   z-index:1;
+ 
+}
+
+.infof{
+  margin-left: -8%;
+}
+
+.rightclmn{
+  margin-left: -8%;
+}

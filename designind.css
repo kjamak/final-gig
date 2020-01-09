@@ -1,0 +1,73 @@
+body{
+	background-image: url("bg.jpeg");   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.logopic{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 100px;
+  height: 86px;
+}
+
+.gig{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+	margin-top: 5%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.left{
+	 position: relative;
+  left: 23%;
+}
+.right{
+	position: relative;
+  right: 4%;
+}
+
+.regleft{
+	margin-top: 1%;
+	position: absolute;
+	left: 88%;
+
+}
+
+.regright{
+	margin-top: 1%;
+position: absolute;
+	left:  94.5%;
+
+}
+
+.searchform{
+  opacity: 0.5;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+

@@ -1,0 +1,63 @@
+body{
+  background-image: url("bg.jpeg");   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+.column{
+  float: left;
+  width: 20%;
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card{
+   background-color: rgba(0,0,0,0);
+   font-style: italic;
+   border: none;  
+}
+.card-title{
+  font-style: italic;
+  font-style: bold;
+  color: white;
+}
+
+.card-img-top{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+
+
+}
+
+.card-body{
+  text-align: center;
+}
+.row{
+  
+}
+.searchform{
+  opacity: 0.5;
+}
+
+.scroll{
+  color: white;
+  margin-left: 5%;
+  font-style: italic;
+}
+
+.gig{
+  font-style: italic;
+  font-weight: bolder;
+}
